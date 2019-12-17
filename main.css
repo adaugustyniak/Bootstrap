@@ -19,11 +19,85 @@ h1
 	text-align: center;
 }
 
-.jumpers p 
+.jumpers img
+{
+	width: 100%;
+	height: auto;
+}
+
+.jumpers p
 {
 	margin-bottom: 30px;
 }
+
 .jumpers figcaption
 {
 	margin-top: 8px;
 }
+
+/*
+.navbar-nav li:hover>.dropdown-menu
+{
+	display: block;
+}
+*/
+
+.navbar
+{
+	min-height: 57px;
+}
+
+.bg-jumpers
+{
+	background-color: #91a33b !important;
+}
+.wpis
+{
+	text-align: justify;
+	font-size: 16px;
+	padding: 30px;
+}
+.blockquote
+{
+	line-height: 120%;
+}
+
+@media (max-width: 575px)
+{
+	.wpis
+	{
+		margin: 40px 20px;
+		text-align: left;
+		font-size: 15px;
+		margin-bottom: 40px;
+	}
+	.float-left, .float-right
+	{
+		max-width: 50%;
+	}
+	.blockquote
+{
+	font-size: 17px;
+}
+.list-group
+{
+	text-align: center;
+}
+}
+.list-group-item-dark
+{
+	background-color: #373a3d;
+	color: white;
+}
+.list-group-item-dark:hover
+{
+	background-color: #91a33b !important;
+}
+.list-group .active
+{
+	background-color: #91a33b !important;
+	cursor: default;
+}
+
+
+
